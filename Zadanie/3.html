@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html#main">Главная</a>
+        <a href="index.html#table">Cравнение с 13 Pro </a>
+        <a href="second.html#opinion">Отзывы</a>
+        <a href="#zakaz">Заказать</a>
+    </nav>
+</header>
+<main>
+    <h1 id="zakaz">Заказать Iphone 13 Pro Max</h1>
+    <form action="https://webhook.site/0fd915bd-e0d6-40de-832d-344f766c8bdb" method="post">
+        <label>
+            <b>Имя</b> <input type="text" name="name" required>
+        </label>
+        <br>
+        <br>
+        <label> <b>Фамилия</b> <input type="text" name="lastname" required> </label>
+        <br>
+        <br>
+
+        <label> <b>Телефон</b> <select name="number">
+            <option value="+375">+375</option>
+            <option value="+380">+380</option>
+            <option value="+7">+7</option>
+        </select>
+            <input type="text" name="number" required>
+        </label>
+        <br>
+        <br>
+        <label> <b>Email</b> <input type="text" name="email" required> </label>
+        <br>
+        <br>
+        <label> <b>Объем памяти</b> <select name="pamyat" name="pamyat" required>
+            <option value="64">64</option>
+            <option value="256">256</option>
+            <option value="512">512</option>
+        </select>
+        </label>
+        <p><b>Cпособ доставки</b></p>
+        <label>
+            <input type="radio" name="dost" required value="courier"> Курьером
+        </label>
+        <br>
+        <label>
+
+            <input type="radio" name="dost" required value="pickup"> Самовывоз
+        </label>
+        <br>
+        <br>
+        <p><b>Добавить к заказу</b></p>
+        <label>
+            <input type="checkbox" name="add[]" value="case"> Прозрачный чехол
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="add[]" value="charger"> Беспроводное зарядное устройство MagSafe
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="add[]" value="headphones"> Наушники AirPods
+        </label>
+
+        <br>
+        <br>
+        <label> <b>Комментарий к заказу</b>
+            <br>
+            <textarea cols="30" rows="10" name="comment"></textarea>
+        </label>
+        <br>
+        <input type="checkbox" name="agree" required> Я принимаю <a href="vk.com">условия сайта </a>
+        <br>
+        <br>
+        <input type="submit" value="Заказать">
+    </form>
+</main>
+<footer>
+    <hr>
+    <b>Все права защищены</b>
+</footer>
+</body>
+</html>
